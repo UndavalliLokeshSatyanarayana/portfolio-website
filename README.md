@@ -11,4 +11,4 @@ This is my personal portfolio website built using HTML and CSS.
 ## How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/portfolio-website.git
+   git clone https://github.com/undavallilokeshsatyanarayana/portfolio-website.git
