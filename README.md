@@ -15,6 +15,11 @@ A simple and responsive portfolio website to showcase my skills, projects, and c
 - **CSS**
 - **JavaScript**
 
+## 📬 Contact Details
+If you have any questions, feel free to reach out:  
+📧 **Email**: lokeshundavalli@gmail.com  
+🔗 **Portfolio**: [GitHub Profile](https://github.com/UndavalliLokeshSatyanarayana)
+
 ## 🚀 Getting Started
 ### 1️⃣ Clone the Repository
 ```sh
