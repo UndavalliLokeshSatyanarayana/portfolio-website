@@ -1,42 +1,41 @@
-/* General Styles */
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: #f4f4f4;
     color: #333;
 }
 
+/* Header */
 header {
-    text-align: center;
-    padding: 20px;
-    background-color: #343a40;
+    background: #333;
     color: white;
+    text-align: center;
+    padding: 1rem;
 }
 
 /* Navbar */
 nav {
-    background-color: #495057;
-    padding: 10px;
+    background: #444;
+    padding: 0.5rem;
     text-align: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
 }
 
 nav ul li {
+    display: inline;
     margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 nav ul li a:hover {
@@ -45,60 +44,87 @@ nav ul li a:hover {
 
 /* Sections */
 section {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
+    padding: 2rem;
     background: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    max-width: 800px;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
-    text-align: center;
-}
-
-/* Profile Image */
+/* About Section */
 .profile-pic {
     display: block;
-    width: 250px;
-    height: 350px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin: 20px auto;
+    margin: 1rem auto;
+    object-fit: cover;
 }
 
 /* Skills */
 .skill-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 10px;
 }
 
 .skill-container span {
-    background: #6c757d;
+    background: #555;
     color: white;
-    padding: 8px 15px;
+    padding: 5px 10px;
     border-radius: 5px;
+    font-size: 0.9rem;
 }
 
-/* Projects */
+/* Project */
 .project {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin: 10px 0;
+    background: #f8f8f8;
+    padding: 1rem;
     border-radius: 5px;
-    background: #f1f1f1;
+    margin-top: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .project a {
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-    color: #007bff;
+    display: inline-block;
+    margin-top: 5px;
+    color: #007BFF;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .project a:hover {
+    text-decoration: underline;
+}
+
+/* Internship Section */
+.internship {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.internship h3 {
+    color: #333;
+}
+
+.internship p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.internship a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.internship a:hover {
     text-decoration: underline;
 }
 
@@ -106,41 +132,37 @@ h1, h2, h3 {
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-form input, form textarea {
-    width: 90%;
+form input,
+form textarea {
     padding: 10px;
-    margin: 10px 0;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
+form button {
+    background: #333;
     color: white;
+    padding: 10px;
     border: none;
-    cursor: pointer;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
+form button:hover {
+    background: #555;
 }
 
 /* Responsive Design */
-@media screen and (max-width: 600px) {
-    nav ul {
-        flex-direction: column;
-        padding: 0;
-    }
+@media (max-width: 600px) {
     nav ul li {
-        margin: 5px 0;
+        display: block;
+        margin: 10px 0;
     }
-    section {
-        width: 90%;
+
+    .skill-container {
+        justify-content: center;
     }
 }
