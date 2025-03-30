@@ -59,6 +59,10 @@ section {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
+h1, h2, h3 {
+    text-align: center;
+}
+
 /* Profile Picture */
 .profile-pic {
     display: block;
