@@ -1,6 +1,6 @@
 # 🌐 Portfolio Website
 
-A simple and responsive portfolio website to showcase my skills, projects, and contact details.
+A simple and responsive portfolio website to showcase my education, skills, projects, internship and contact details.
 
 ## 📌 Features
 - **About Section** – Brief introduction about myself.
